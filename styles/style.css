@@ -2,3 +2,44 @@
     margin: 0px;
     padding: 0px;
 }
+.header{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 0px;
+    background: rgba(229, 84, 115, 0.10);
+    gap: 0px;
+    
+}
+.wrt{
+    width: 50%;
+    font-family: 'Lato';
+    color: #27272799;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.logo{
+    width: 330px;
+    height:400px;
+  /* padding-top: 50px; */
+}
+.btn{
+    display: inline-flex;
+    padding: 10px 30px;
+    align-items: flex-start;
+    gap: 10px;  
+    margin-top:15px ;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    padding-bottom: 10px;
+
+}
+.font{
+    font-size: 40px;
+    color: #272727;
+    font-family: Lato;
+    font-weight: 800;
+}
