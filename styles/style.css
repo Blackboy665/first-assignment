@@ -24,6 +24,8 @@
     width: 330px;
     height:400px;
   /* padding-top: 50px; */
+  position: relative;
+  top: 4px;
 }
 .btn{
     display: inline-flex;
@@ -58,8 +60,10 @@
     margin:auto;
 }
 .icon{
-    width: 100px;
-height: 200px;
+    width: 200px;
+height: 250px;
+position: relative;
+top: 30px;
 
 }
 .three-boxes{
@@ -69,6 +73,8 @@ height: 200px;
     /* align-items: center; */
     /* text-align: center; */
     justify-content: center;
+    height: 350px;
+    
     
 }
 .box-1{
@@ -77,10 +83,11 @@ margin-right:0px ;
 text-align: center;
 margin-left: 200px;
 padding:  70px;
-border-radius: 100px 100px 0px 0px; 
+border-radius: 200px 200px 0px 0px; 
 border: none;
 background: rgba(167, 33, 98, 0.15);
-   
+ position: relative; 
+ left: 70px; 
 }
 .box-2{
     border: 1px solid;
@@ -88,9 +95,11 @@ margin-right:0px ;
 text-align: center;
 margin-left: 200px;
 padding: 70px;
-border-radius: 100px 100px 0px 0px; 
+border-radius: 200px 200px 0px 0px; 
 border: none;
 background: rgba(5, 151, 160, 0.15);
+position: relative;
+right: 100px;
 }
 .box-3{
     border: 1px solid;
@@ -98,17 +107,30 @@ background: rgba(5, 151, 160, 0.15);
     text-align: center;
     margin-left: 200px;
     padding:70px;
-    border-radius: 100px 100px 0px 0px; 
+    border-radius: 200px 200px 0px 0px; 
     border: none;
 background: rgba(71, 125, 17, 0.15);
+position: relative;
+right: 270px;
 }
-.container{
+.j{
     display: flex;
     gap: 400px;
     margin-left: 200px;
     padding: 25px;
     text-align: center;
     text-decoration: underline;
+    position: relative;
+    left: 70px;
+}
+
+.k{
+position: relative;
+right: 150px;
+}
+.i{
+    position: relative;
+    right: 280px;
 }
 .Hot-deals{
     font-family: 'Lato';
