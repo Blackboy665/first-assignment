@@ -48,15 +48,14 @@
     height: 10vh;
     text-align: center;
     padding:100px;
-    featured-paragraph
 }
 .featured-paragraph{
     width: 50%;
-    font-family: 'Lato';
+    font-family:'Lato';
     color: #27272799;
-    font-size: 10px;
-    padding-top: 10px;
-    margin: auto;
+    font-size:10px;
+    padding-top:10px;
+    margin:auto;
 }
 .icon{
     width: 100px;
@@ -69,7 +68,7 @@ height: 200px;
     /* margin: auto; */
     /* align-items: center; */
     /* text-align: center; */
-    /* justify-content: center; */
+    justify-content: center;
     
 }
 .box-1{
@@ -99,7 +98,6 @@ background: rgba(5, 151, 160, 0.15);
     text-align: center;
     margin-left: 200px;
     padding:70px;
-    x;
     border-radius: 100px 100px 0px 0px; 
     border: none;
 background: rgba(71, 125, 17, 0.15);
@@ -117,4 +115,62 @@ background: rgba(71, 125, 17, 0.15);
     color: #27272799;
     font-size: 10px;
     padding-top: 10px; 
+}
+.flex-box{
+    display: flex;
+justify-content: center;
+padding: 50px;
+}
+.square-1{
+    padding:20px;
+}
+.square-2{
+    padding: 20px;
+}
+.square-3{
+    padding: 20px;
+}
+.square-3{
+    padding: 20px;
+}
+.square-4{
+    padding: 20px;
+}
+.banner{
+    height: 40vh;
+    width: 80%;
+   background-image: url("../Rectangle\ 9.png");
+   background-repeat: no-repeat;
+   background-size:1000px;
+   margin-left: 225px;
+   margin-right:225px ;
+   padding: 100px;
+   /* margin: auto; */
+   /* display: flex; */
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.center{
+    text-align: center;
+    padding-right: 270px;
+    font-weight: 800;
+}
+.coupon{font-family: 'Lato';
+    color: #27272799;
+    font-size: 10px;
+    padding-top: 10px; 
+    padding-right: 270px;
+    text-align: center;
+}
+.input{
+    padding-right: 270px;
+    text-align: center;
+}
+.email{
+   padding:10px ; 
+   border: none;
+   width: 400px;
+   border-radius: 5px;
+
+
 }
